@@ -1,0 +1,17 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Java
+out/
+target/
+build/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Env
+.env
