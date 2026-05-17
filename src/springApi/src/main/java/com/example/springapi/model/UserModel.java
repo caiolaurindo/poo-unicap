@@ -1,9 +1,7 @@
 package com.example.springapi.model;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,4 +19,8 @@ public class UserModel {
     String username;
     String password;
     int age;
+
+    @OneToOne
+    @JoinColumn(name="profile_id")
+    ProfileModel profile;
 }
