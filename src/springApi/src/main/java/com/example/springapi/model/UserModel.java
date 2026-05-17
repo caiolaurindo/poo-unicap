@@ -22,5 +22,5 @@ public class UserModel {
 
     @OneToOne
     @JoinColumn(name="profile_id")
-    ProfileModel profile;
+    ProfileModel profile
 }
