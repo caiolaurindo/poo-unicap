@@ -1,6 +1,7 @@
 package com.example.springapi.dto;
 
 
+import com.example.springapi.model.PostModel;
 import com.example.springapi.model.ProfileModel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
