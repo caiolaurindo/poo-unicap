@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.example.demo.model.SkillModel;
-import com.example.demo.model.UserModel;
-import com.example.demo.service.SkillService;
+import com.example.springapi.model.SkillModel;
+import com.example.springapi.model.UserModel;
+import com.example.springapi.service.SkillService;
 
 @RestController
 @RequestMapping("/skills")

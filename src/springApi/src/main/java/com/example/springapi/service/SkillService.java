@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-class SkillService {
+public class SkillService {
     @Autowired
     private SkillRepository skillRepository;
 
